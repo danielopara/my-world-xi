@@ -11,7 +11,7 @@ const xiRoutes = require("./Api/routes/xi");
 
 mongoose
   .connect(
-    `mongodb+srv://oparadaniv:${process.env.my_pass_key}@world-xi.bdrzpea.mongodb.net/`,
+    `mongodb+srv://oparadaniv:worldxidaniel@world-xi.bdrzpea.mongodb.net/`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
