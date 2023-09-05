@@ -72,7 +72,7 @@ router.get("/", (req, res, next) => {
             number: player.player_number,
             position: player.position,
             getPlayer: {
-              url: "http://localhost:2020/xi/" + player._id,
+              url: "https://daniel-worldxi.onrender.com/xi/" + player._id,
             },
           };
         }),
@@ -132,7 +132,7 @@ router.get("/:id", (req, res, next) => {
           number: result.player_number,
           foot: result.foot,
           "All players": {
-            url: "http://localhost:2020/xi",
+            url: "https://daniel-worldxi.onrender.com/xi",
           },
         };
         res.status(200).json(response);
